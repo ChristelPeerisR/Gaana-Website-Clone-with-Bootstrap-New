@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gaana.com</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="pics/gaana.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Gaana template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <!-- Bootstrap CSS -->
+</head>
+
+<body>
+
+    <!-- Main -->
+    <section class="super_container" id="home">
+
+        <!-- Header -->
+        <section class="header">
+            <div class="head">
+                <nav class="navbar navbar-expand-sm navbar-default">
+                    <img src="images/logo.png" />
+                    <form class="form-inline" action="search" method="GET">
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="Search for Songs, Artists, Playlists and More"
+                                class="search" size="50" />
+                        </div>
+                        <div class="input-group-append">
+                            <button type="submit" class="sb">Search</button>
+                        </div>
+                    </form>
+                    <div>
+                        <button type="button" class="trial">Welcome Offer: 1 Month Trial @ ₹1</button>
+                    </div>
+                    <div>
+                        <button type="button" href="#" class="plus">Get Gaana Plus</button>
+                    </div>
+                    <div class="log">
+                        <a href="login.html">Login </a> /
+                        <a href="signup.html">SignUp</a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- Header -->
+
+        <!-- Nav -->
+        <nav class="navbar pass navbar-expand-sm navbar-default">
+            <div class="collapse navbar-collapse" id="nav1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link act">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#trend" class="nav-link">Trending Songs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#new" class="nav-link">New Songs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#old" class="nav-link">Old Songs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mood" class="nav-link">Moods & Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#playlist" class="nav-link">Top Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#artist" class="nav-link">Top Artist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#radio" class="nav-link">Radio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#podcast" class="nav-link">Podcast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mymusic" class="nav-link">My Music</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Nav -->
+
+        <!-- Trend -->
+        <section class="col-sm-12 tp">
+            <div id="carouselpickControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="pics/thumb1_uG5b7bn.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb2_wk7Mt1X.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb3_EpJ0oG4.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="pics/thumb4_wZ2OMZi.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb5_04nXkdM.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb6_nnXWakg.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="pics/thumb7_ZHQ8RvY.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb8_BsB2e5t.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="pics/thumb9_e6q5BA0.webp" class="d-block w-100"
+                                    style="border-radius: 8px 8px 8px 8px;" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselpickControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselpickControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </section>
+        <!-- Trend -->
+
+        <!-- Trending Songs -->
+        <section id="trend">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Trending Songs
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/aajkebad.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Aajke Bad</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/rangi.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Rangi Sari</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/lover.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Lover</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/parsoori.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Parsoori</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/whosays.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Who Says</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/naaaready.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Naa Ready</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Trending Songs -->
+
+        <!-- New Songs -->
+        <section id="new">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        New Songs
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/heeriye.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Heeriye</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/chaleya.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Chaleya</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/aganaga.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Aga Naga</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/jailer.jpeg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Kaavala</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/apnabanale.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Apna Banale</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/curl.jpeg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Cruel Summer</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- New Songs -->
+
+        <!-- Old Songs -->
+        <section id="old">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Old Songs
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/final.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">The Final Countdown</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/chal.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Chal Chaya</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/jeans.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Colambus</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/aewatan.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Ae Watan</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/barbie.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Barbie</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/adiyaekolluthae.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Aadiye Kolluthae</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Old Songs -->
+
+        <!-- Moods & Genres -->
+        <section id="mood">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Moods & Genres
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topdance.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Dance</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/tophindi.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Hindi</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/tophiphop.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top HipHop</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topindie.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Indie</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topinternational.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top International</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/toppop.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Pop</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Moods & Genres -->
+
+        <!-- Top Playlist -->
+        <section id="playlist">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Top Playlist
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/toppunjabi.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Punjabi</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topretro.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Retro</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topromance.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Romance</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/toptamil.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Tamil</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/toptelugu.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Telugue</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/topdance.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Top Malayalam</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Top Playlist -->
+
+        <!-- Top Artist -->
+        <section id="artist">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Top Artist
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/arijit.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Arijit Hits</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/shreya.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Shreya Hits</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/rahman.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">A R Rahman Hits</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/taylor.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Taylor Swift Hits</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/anirudhravichander.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Anirudh Ravichander Hits</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/apdhillon.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">A P Dhillon</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Top Artist -->
+
+        <!-- Radio -->
+        <section id="radio">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Radio
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/terafitoor.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Tera Fitoor</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/uff.jpeg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Uff</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/tumsath.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Tum Sath Ho</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/withyou.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">With You</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/zingaat.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Zingaat</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/liviating.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Liviating</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Radio -->
+
+        <!-- Podcast -->
+        <section id="podcast">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        Podcast
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/24.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">24</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/hawayien.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Hawayien</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/aaruyire.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Aaruyire</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/azhagiye.webp" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Azhagiye</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/badblood.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Badblood</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/beast.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Beast</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Podcast -->
+
+        <!-- My Muusic -->
+        <section id="mymusic" class="last">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12 title">
+                        My Music
+                    </div>
+                </div>
+                <div class="col-6 text-right">
+                    <div>
+                        <h5><a href="#" class="nav-link active viewall">View all ></a></h5>
+                    </div>
+                </div>
+            </div>
+            <section class="col-sm-12">
+                <div class="row rp">
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/calmdown.jpeg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Calmdown</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/ennasona.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Enna Sona</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/heartstereo.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">My Heart's Stereo</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/kalasi.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Kalasi</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/cupid.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Cupid</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="hovereffect">
+                            <img src="pics/heyamigo.jpg" class="img-responsive img">
+                            <center>
+                                <h6 class="cap">Hey Amigo</h6>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- My Muusic -->
+
+        <div class="banner">
+            <h1 class="bajna">Bas Bajna Chahiye Gaana</h1>
+            <p class="rigth">Gaana is your gateway to the best and latest in music,
+                offering over 30 million songs across diverse languages including Hindi,
+                English,<br /> Bollywood, and regional tracks. Stream your favourite Hindi songs,
+                Bollywood music, English MP3 songs, radio, podcast and regional music online or
+                download songs to enjoy anytime, anywhere!</p>
+            <hr>
+            </hr>
+            <p>Terms of Use
+                Privacy Policy
+                About Us
+                FAQ</p>
+            <hr>
+            </hr>
+            <h3 class="quick">Quick Links</h3>
+            <footer class="site-footer">
+                <div class="grid-footer contenedor">
+                    <div>
+                        <h3>Albums</h3>
+                        <nav class="footer-menu">
+                            <a href="#">English</a>
+                            <a href="#">Tamil</a>
+                            <a href="#">Hindi</a>
+                            <a href="#">Malayalam</a>
+                            <a href="#">Kanada</a>
+                            <a href="#">Telungu</a>
+                            <a href="#">Panjabi</a>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <h3>Artist</h3>
+                        <nav class="footer-menu">
+                            <a href="#">Bollywood Songs
+                                <a href="#">Devotional Songs</a>
+                                <a href="#">Ghazals</a>
+                                <a href="#">Rock Songs</a>
+                                <a href="#">Love Songs</a>
+                                <a href="#">Disco Songs</a>
+                                <a href="#">Sufi Songs</a>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <h3>New Release</h3>
+                        <nav class="footer-menu">
+                            <a href="#">Arijit Singh</a>
+                            <a href="#">A R Rahman</a>
+                            <a href="#">Honey Singh</a>
+                            <a href="#">Neha Kakkar</a>
+                            <a href="#">Lata Mangeshkar</a>
+                            <a href="#">Atif Aslam</a>
+                            <a href="#">Armaan Malik</a>
+                            <a href="#">Kishore Kumar</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <h3>New songs</h3>
+                        <nav class="footer-menu">
+                            <a href="#">New English Songs</a>
+                            <a href="#">New Tamil Songs</a>
+                            <a href="#">New Hindi Songs</a>
+                            <a href="#">New Punjabi Songs</a>
+                            <a href="#">New Telugu Songs</a>
+                            <a href="#">New Malayalam Songs</a>
+                            <a href="#">New Marathi Songs</a>
+                        </nav>
+                    </div>
+                </div>
+                <hr>
+                </hr>
+                <p class="copy">© Entertainment Network India Ltd. 2024, All Rights Reserved</p>
+        </div>
+
+    </section>
+    <!-- Main -->
+
+
+    <div class="container-fluid fixed-bottom bg-white">
+        <div class="row last-footer">
+            <div class="col-sm-3">
+                <div class="media">
+                    <img src="pics/heeriye.jpg" class="align-self-center mr-3" alt="">
+                    <div class="media-body text-dark">
+                        <h5>Heeriye <i class="far fa-heart"></i></h5>
+                        <p>Arijit Singh, Jasleen Royal </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="align-items: center;">
+                <div class="progress-block text-white">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-light my-2">
+                    <center>
+                        <span class="material-icons icon" style="color: #000;">
+                            skip_previous
+                        </span>
+
+                        <span class="material-icons icon" style="color:#ff0000;">
+                            play_circle
+                        </span>
+
+                        <span class="material-icons icon" style="color: #000;">
+                            skip_next
+                        </span>
+                    </center>
+                </div>
+            </div>
+            <div class="col-sm-2 text-white d-inline-flex flex-row-reverse align-items-center">
+                <div class="volume-progress text-white">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+                <div></span>&nbsp;<span></div>
+                <div>
+                    <span class="material-icons volume">
+                        <i class="fas fa-volume-up"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- footer--end-->
+
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0027d07b0.js" crossorigin="anonymous"></script>
+    <!-- Script -->
+
+</body>
+
+</html>
